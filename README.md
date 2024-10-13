@@ -27,41 +27,46 @@ To get started with the EWP Travel Agency project, follow these steps:
    git clone https://github.com/startup-Git/ewp.git
 
 
-# Navigate to the project directory:
-===================================
+2. **Navigate to the ewp directory:**
+   ```bash
    cd ewp
 
+3. **Navigate to the project directory:**
+   ```bash
+   cd ewp
 
-# Create a virtual environment:
-================================
+ **Create a virtual environment:**
+ 
    python -m venv .venv
 
-# Activate the virtual environment:
-====================================
+ **Activate the virtual environment:**
+
    On Windows:
       venv\Scripts\activate
 
    On macOS/Linux:
       source venv/bin/activate
 
-# Install the required dependencies:
-===================================
+4. **Install the required dependencies:**
+   ```bash
    pip install -r requirements.txt
 
-# Apply database migrations:
-===========================
+**Apply database migrations:**
+
    python manage.py makemigrations
    python manage.py migrate
 
-# Create a superuser for admin access:
-=====================================
+**Create a superuser for admin access:**
+
    python manage.py createsuperuser
    <!-- super user -->
    name: admin
    password: admin
-# Run the development server:
-============================
+
+5. **Run the development server:**
+   ```bash
    python manage.py runserver
+
 
 Your application should now be running at http://127.0.0.1:8000/.
 
@@ -72,7 +77,7 @@ Admin Panel: Access the admin panel at http://127.0.0.1:8000/admin/ to manage us
 
 
 # Configuration:
-================
+
 Make sure to configure the following settings in your settings.py file:
 
 DATABASES: Configure your database settings (e.g., PostgreSQL, MySQL).
@@ -83,16 +88,16 @@ Contributing
 We welcome contributions to the EWP Travel Agency project. If you have suggestions, improvements, or bug fixes, please follow these steps:
 
 # Fork the repository.
-====================
+
 
 Create a new branch (git checkout -b feature/your-feature).
-Make your changes and commit them (git commit -am 'Add new feature').
+Make and commit your changes (git commit -am 'Add new feature').
 Push to the branch (git push origin feature/your-feature).
 Create a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
-For any questions or inquiries, please contact us at info@easywayprocess.com.
+For any questions or inquiries, don't hesitate to get in touch with us at info@easywayprocess.com.
 
 Thank you for using the EWP Travel Agency!
