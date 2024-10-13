@@ -1,0 +1,1011 @@
+{% extends './basefile/base.html' %}
+    {% load static %}
+    {% block title %}
+    Easy Way Process | Home
+    {% endblock title %}
+      
+
+    {% block content %}
+            
+
+      <!-- ========== Start hero ========== -->
+      <section class="hero_section">
+        <div class="hero" id="home">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="hero_content position-relative">
+                <img src="{% static '/images/slider/banner.webp' %}" alt="banner1" />
+                <div
+                  class="d-flex justify-content-center flex-column align-items-center"
+                >
+                  <h1 class="text-white sevillana-regular fa-7x">Iceland</h1>
+                  <h2 class="text-white">Explore the world with us</h2>
+                  <a href="#aboutus" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="hero_content position-relative">
+                <img src="{% static '/images/slider/banner2.webp' %}" alt="banner2" />
+                <div
+                  class="d-flex justify-content-center flex-column align-items-center"
+                >
+                  <h1 class="text-white sevillana-regular fa-7x">
+                    Switzerland
+                  </h1>
+                  <h2 class="text-white">Explore the world with us</h2>
+                  <a href="#aboutus" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="hero_content position-relative">
+                <img src="{% static '/images/slider/banner3.webp' %}" alt="banner4" />
+                <div
+                  class="d-flex justify-content-center flex-column align-items-center"
+                >
+                  <h1 class="text-white sevillana-regular fa-7x">Australia</h1>
+                  <h2 class="text-white">Explore the world with us</h2>
+                  <a href="#aboutus" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="hero_content position-relative">
+                <img src="{% static '/images/slider/banner4.webp' %}" alt="banner1" />
+                <div
+                  class="d-flex justify-content-center flex-column align-items-center"
+                >
+                  <h1 class="text-white sevillana-regular fa-7x">Iceland</h1>
+                  <h2 class="text-white">Explore the world with us</h2>
+                  <a href="#aboutus" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== End hero ========== -->
+
+      <!-- ========== Start Travel Search ========== -->
+      <section class="travel_search_bar bg-primary py-5" id="home">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="travel_search_bar_content">
+                <h3 class="text-white">Search for your dream destination</h3>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="travel_search_bar_forms">
+                <form class="d-flex justify-content-between">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id=""
+                    aria-describedby="helpId"
+                    placeholder="Search job here."
+                  />
+                  <select class="form-select form-select-lg" name="" id="">
+                    <option selected disabled>Select Country</option>
+                    <option value="">New Delhi</option>
+                    <option value="">Istanbul</option>
+                    <option value="">Jakarta</option>
+                  </select>
+                  <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== End Travel Search ========== -->
+
+      <!-- ========== Start About us ========== -->
+      <section class="about_us_section py-5 bg-light" id="aboutus">
+        <div class="container-fluid py-5">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="about_image img-fluid">
+                <img
+                  src="{% static '/images/aboutus.jpg' %}"
+                  class="img-fluid h-100"
+                  alt="aboutus"
+                />
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="about_contents">
+                <div class="about_text pt-5">
+                  <h5 class="sevillana-regular mb-2">a few words</h5>
+                  <h1 class="about_header mb-2">About Us</h1>
+                  <p class="text-muted">
+                    Proin gravida nibh vel velit auctor aliquet. Aenean
+                    sollicitudin, lorem quis bibendum auctor, nisi elit
+                    consequat ipsum, nec sagittis sem nibh id elit. Duis sed
+                    odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+                    accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor
+                    a ornare odio.Aenean sollicitudin, lorem quis bibendum
+                    auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
+                    elit. Duis sed odio sit amet nibh vulputate cursus a sit
+                    amet mauris. Morbi accumsan ipsum velit.
+                  </p>
+                  <button type="button" class="btn btn-primary">
+                    See More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== End About us ========== -->
+
+      <!-- ========== Start Popular Destination Places ========== -->
+      <section class="Pupolar_country_section py-5" id="service">
+        <div class="container-fluid py-5">
+          <div class="row">
+            <div class="col-lg-12">
+              <div
+                class="pupolar_into_section text-center d-flex flex-column justify-content-center m-auto w-50 pt-5"
+              >
+                <h1 class="text-primary text-capitalize">
+                  Popular Job Destination
+                </h1>
+                <p class="text-muted sevillana-regular pb-5">
+                  Suffered alteration in some form, by injected humour or good
+                  day randomised booth anim 8-bit hella wolf moon beard words.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="job_places_items">
+                <div class="card position-relative">
+                  <img
+                    class="card-img-top"
+                    src="{% static '/images/destinations/fiji/image (2).png' %}"
+                    alt="Fiji"
+                  />
+                  <div class="card-body position-absolute d-flex">
+                    <h4 class="card-title">Fiji</h4>
+                    <button class="btn btn-primary btn-sm">50+ Jobs</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="job_places_items">
+                <div class="card position-relative">
+                  <img
+                    class="card-img-top"
+                    src="{% static '/images/destinations/Kuwait/image (2).png' %}"
+                    alt="Kuwait"
+                  />
+                  <div class="card-body position-absolute d-flex">
+                    <h4 class="card-title">Kuwait</h4>
+                    <button class="btn btn-primary btn-sm">30+ Jobs</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="job_places_items">
+                <div class="card position-relative">
+                  <img
+                    class="card-img-top"
+                    src="{% static '/images/destinations/malaysia/image.png' %}"
+                    alt="Malaysia"
+                  />
+                  <div class="card-body position-absolute d-flex">
+                    <h4 class="card-title">Malaysia</h4>
+                    <button class="btn btn-primary btn-sm">10+ Jobs</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="job_places_items">
+                <div class="card position-relative">
+                  <img
+                    class="card-img-top"
+                    src="{% static '/images/destinations/Oman/image (2).png' %}"
+                    alt="Oman"
+                  />
+                  <div class="card-body position-absolute d-flex">
+                    <h4 class="card-title">Oman</h4>
+                    <button class="btn btn-primary btn-sm">05+ Jobs</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="job_places_items">
+                <div class="card position-relative">
+                  <img
+                    class="card-img-top"
+                    src="{% static '/images/destinations/Qatar/image (3).png' %}"
+                    alt="Qatar"
+                  />
+                  <div class="card-body position-absolute d-flex">
+                    <h4 class="card-title">Qatar</h4>
+                    <button class="btn btn-primary btn-sm">15+ Jobs</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="job_places_items">
+                <div class="card position-relative">
+                  <img
+                    class="card-img-top"
+                    src="{% static '/images/destinations/saudi arabia/image.png' %}"
+                    alt="Saudi Arabia"
+                  />
+                  <div class="card-body position-absolute d-flex">
+                    <h4 class="card-title">Suadi Arabia</h4>
+                    <button class="btn btn-primary btn-sm">100+ Jobs</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== End Popular Destination Places ========== -->
+
+      <!-- ========== Start Newslater ========== -->
+      <section class="newslater_section py-5" id="service">
+        <div class="container-fluid !direction !spacing">
+          <div
+            class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|} mt-4"
+          >
+            <div class="col-lg-6">
+              <div
+                class="newslater_items text-center d-flex flex-column w-75 m-auto"
+              >
+                <h4 class="newslater_title">Subscribe to our newsletter</h4>
+                <p class="newslater_text sevillana-regular">
+                  Get the latest news and updates from our team
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="newslater_items_forms">
+                <form class="form-inline d-flex justify-content-center">
+                  <div class="form-group mx-sm-3 mb-2 w-75">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Mail"
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-primary mb-2 w-25">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== End Newslater ========== -->
+
+      <!-- ========== Start Popular Places Section ========== -->
+      <section class="Popular_Places_Section py-5" id="service">
+        <div class="container-fluid !direction !spacing">
+          <div
+            class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}"
+          >
+            <div class="col-lg-12">
+              <div
+                class="Popular_Places_Items text-center d-flex flex-column w-50 m-auto py-5"
+              >
+                <h1 class="text-primary text-capitalize">Popular Places</h1>
+                <p class="text-muted sevillana-regular pb-5">
+                  Suffered alteration in some form, by injected humour or good
+                  day randomised booth anim 8-bit hella wolf moon beard words.
+                </p>
+              </div>
+            </div>
+            <!--card design-->
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="PP_card_design shadow-sm">
+                <div class="card border border-0">
+                  <div class="card_picture position-relative">
+                    <img
+                      class="card-img-top"
+                      src="{% static '/images/destinations/fiji/image (3).png' %}"
+                      alt="fiji"
+                    />
+                    <a
+                      class="btn btn-danger btn-sm position-absolute"
+                      role="button"
+                      >$500.00</a
+                    >
+                  </div>
+                  <div class="card-body">
+                    <div class="card_item_heading">
+                      <h4 class="card-title">Fiji</h4>
+                      <p class="card-text text-muted">
+                        All Job Vacancies in Fiji
+                      </p>
+                    </div>
+                    <div
+                      class="card-item_info d-flex justify-content-between mt-3 pb-2 text-muted"
+                    >
+                      <div class="card-reviews">
+                        <span class="rating text-danger">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="rating-text"> (20 Reviews) </span>
+                      </div>
+                      <span class="card-days">
+                        <i class="fa-regular fa-clock"></i>
+                        <span> 7 Days</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="PP_card_design shadow-sm">
+                <div class="card border border-0">
+                  <div class="card_picture position-relative">
+                    <img
+                      class="card-img-top"
+                      src="{% static '/images/destinations/Kuwait/image (3).png' %}"
+                      alt="Kuwait"
+                    />
+                    <a
+                      class="btn btn-danger btn-sm position-absolute"
+                      role="button"
+                      >$5,50.00</a
+                    >
+                  </div>
+                  <div class="card-body">
+                    <div class="card_item_heading">
+                      <h4 class="card-title">Kuwait</h4>
+                      <p class="card-text text-muted">
+                        All Job Vacancies in Kuwait
+                      </p>
+                    </div>
+                    <div
+                      class="card-item_info d-flex justify-content-between mt-3 pb-2 text-muted"
+                    >
+                      <div class="card-reviews">
+                        <span class="rating text-danger">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="rating-text"> (20 Reviews) </span>
+                      </div>
+                      <span class="card-days">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>120 Days</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="PP_card_design shadow-sm">
+                <div class="card border border-0">
+                  <div class="card_picture position-relative">
+                    <img
+                      class="card-img-top"
+                      src="{% static '/images/destinations/malaysia/image (1).png' %}"
+                      alt="malaysia"
+                    />
+                    <a
+                      class="btn btn-danger btn-sm position-absolute"
+                      role="button"
+                      >$500.00</a
+                    >
+                  </div>
+                  <div class="card-body">
+                    <div class="card_item_heading">
+                      <h4 class="card-title">Malaysia</h4>
+                      <p class="card-text text-muted">
+                        All Job Vacancies in Malaysia
+                      </p>
+                    </div>
+                    <div
+                      class="card-item_info d-flex justify-content-between mt-3 pb-2 text-muted"
+                    >
+                      <div class="card-reviews">
+                        <span class="rating text-danger">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="rating-text"> (20 Reviews) </span>
+                      </div>
+                      <span class="card-days">
+                        <i class="fa-regular fa-clock"></i>
+                        <span> 7 Days</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="PP_card_design shadow-sm">
+                <div class="card border border-0">
+                  <div class="card_picture position-relative">
+                    <img
+                      class="card-img-top"
+                      src="{% static '/images/destinations/Oman/image.png' %}"
+                      alt="Oman"
+                    />
+                    <a
+                      class="btn btn-danger btn-sm position-absolute"
+                      role="button"
+                      >$4,50.00</a
+                    >
+                  </div>
+                  <div class="card-body">
+                    <div class="card_item_heading">
+                      <h4 class="card-title">Oman</h4>
+                      <p class="card-text text-muted">
+                        All Job Vacancies in Oman
+                      </p>
+                    </div>
+                    <div
+                      class="card-item_info d-flex justify-content-between mt-3 pb-2 text-muted"
+                    >
+                      <div class="card-reviews">
+                        <span class="rating text-danger">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="rating-text"> (20 Reviews) </span>
+                      </div>
+                      <span class="card-days">
+                        <i class="fa-regular fa-clock"></i>
+                        <span> 90 Days</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="PP_card_design shadow-sm">
+                <div class="card border border-0">
+                  <div class="card_picture position-relative">
+                    <img
+                      class="card-img-top"
+                      src="{% static '/images/destinations/Qatar/image.png' %}"
+                      alt="Qatar"
+                    />
+                    <a
+                      class="btn btn-danger btn-sm position-absolute"
+                      role="button"
+                      >$5,10.00</a
+                    >
+                  </div>
+                  <div class="card-body">
+                    <div class="card_item_heading">
+                      <h4 class="card-title">Qatar</h4>
+                      <p class="card-text text-muted">
+                        All Job Vacancies in Qatar
+                      </p>
+                    </div>
+                    <div
+                      class="card-item_info d-flex justify-content-between mt-3 pb-2 text-muted"
+                    >
+                      <div class="card-reviews">
+                        <span class="rating text-danger">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="rating-text"> (20 Reviews) </span>
+                      </div>
+                      <span class="card-days">
+                        <i class="fa-regular fa-clock"></i>
+                        <span> 7 Days</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="PP_card_design shadow-sm">
+                <div class="card border border-0">
+                  <div class="card_picture position-relative">
+                    <img
+                      class="card-img-top"
+                      src="{% static '/images/destinations/saudi arabia/image (2).png' %}"
+                      alt="Saudi Arabia"
+                    />
+                    <a
+                      class="btn btn-danger btn-sm position-absolute"
+                      role="button"
+                      >$400.00</a
+                    >
+                  </div>
+                  <div class="card-body">
+                    <div class="card_item_heading">
+                      <h4 class="card-title">Saudi Arabia</h4>
+                      <p class="card-text text-muted">
+                        All Job Vacancies in Suadi Arabia
+                      </p>
+                    </div>
+                    <div
+                      class="card-item_info d-flex justify-content-between mt-3 pb-2 text-muted"
+                    >
+                      <div class="card-reviews">
+                        <span class="rating text-danger">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="rating-text"> (20 Reviews) </span>
+                      </div>
+                      <span class="card-days">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>45 Days</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-12 pb-5">
+              <div class="d-flex justify-content-center">
+                <a class="btn btn-danger btn-sm shadow" role="button"
+                  >Search More Places</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== End Popular Places Section ========== -->
+
+      <!-- ========== Start video section ========== -->
+      <section class="video_section d-flex align-items-center" id="service">
+        <div class="container-fluid !direction !spacing">
+          <div
+            class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}"
+          >
+            <div class="col-md-12">
+              <div
+                class="video_content_item d-flex flex-column justify-content-center align-items-center m-auto py-5 text-white z-n1 position-relative"
+              >
+                <h1 class="vc_title sevillana-regular mb-4">Enjoy Video</h1>
+                <span class="video_icon">
+                  <a
+                    class="video_play_button"
+                    href="https://youtu.be/hHuG7FIKgtc?si=UwPX6ELOEotjV5R-"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== End video section ========== -->
+
+      <!-- ========== Start Travel Variation Area Section ========== -->
+      <section class="travel_variation_area py-5 bg-light" id="service">
+        <div class="container-fluid !direction !spacing">
+          <div
+            class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}"
+          >
+            <div class="col-lg-4 col-md-6 py-4">
+              <div
+                class="travel_variation_contents d-flex justify-content-center flex-column m-auto w-100 text-center"
+              >
+                <span class="variation_items_icon mb-3">
+                  <i class="fa-solid fa-earth-americas"></i>
+                </span>
+                <h3 class="variation_items_title text-capitalize fw-bolder">
+                  Work permit Guide
+                </h3>
+                <p class="text-muted sevillana-regular">
+                  A wonderful serenity has taken to the possession of my entire
+                  soul.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 py-4">
+              <div
+                class="travel_variation_contents d-flex justify-content-center flex-column m-auto w-100 text-center"
+              >
+                <span class="variation_items_icon mb-3">
+                  <i class="fa-solid fa-magnifying-glass-dollar"></i>
+                </span>
+                <h3 class="variation_items_title text-capitalize fw-bolder">
+                  Job
+                </h3>
+                <p class="text-muted sevillana-regular">
+                  A wonderful serenity has taken to the possession of my entire
+                  soul.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 py-4">
+              <div
+                class="travel_variation_contents d-flex justify-content-center flex-column m-auto w-100 text-center"
+              >
+                <span class="variation_items_icon mb-3">
+                  <i class="fa-solid fa-house"></i>
+                </span>
+                <h3 class="variation_items_title text-capitalize fw-bolder">
+                  accommodation
+                </h3>
+                <p class="text-muted sevillana-regular">
+                  A wonderful serenity has taken to the possession of my entire
+                  soul.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== End Travel Variation Area Section ========== -->
+
+      <!-- ========== Start testimonial Section ========== -->
+      <section class="testimonial_section py-5" id="service">
+        <div class="container-fluid !direction !spacing">
+          <div
+            class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}"
+          >
+            <div class="col-lg-12">
+              <div class="testimonial_slider position-relative">
+                <div class="testimonial_slider_item py-5">
+                  <!--slider part-->
+                  <div class="slider">
+                    <div
+                      class="testimonial_slider_item_content d-flex flex-column justify-content-center align-items-center w-75 m-auto"
+                    >
+                      <div class="slider_profile mb-5 position-relative">
+                        <img
+                          src="{% static '/images/author.webp' %}"
+                          class="img-fluid rounded"
+                          alt="Author"
+                        />
+                        <span
+                          class="slider_profile_icon position-absolute d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-quote-left"></i>
+                        </span>
+                      </div>
+                      <div class="slider_text w-50 m-auto text-center">
+                        <p class="text-muted">
+                          "Working in conjunction with humanitarian aid
+                          agencies, we have supported programmes to help
+                          alleviate human suffering.
+                        </p>
+                        <span class="text-muted">--John Doe </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="slider">
+                    <div
+                      class="testimonial_slider_item_content d-flex flex-column justify-content-center align-items-center w-75 m-auto"
+                    >
+                      <div class="slider_profile mb-5 position-relative">
+                        <img
+                          src="{% static '/images/author.webp' %}"
+                          class="img-fluid rounded"
+                          alt="Author"
+                        />
+                        <span
+                          class="slider_profile_icon position-absolute d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-quote-left"></i>
+                        </span>
+                      </div>
+                      <div class="slider_text w-50 m-auto text-center">
+                        <p class="text-muted">
+                          "Working in conjunction with humanitarian aid
+                          agencies, we have supported programmes to help
+                          alleviate human suffering.
+                        </p>
+                        <span class="text-muted">--Anushka </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="slider">
+                    <div
+                      class="testimonial_slider_item_content d-flex flex-column justify-content-center align-items-center w-75 m-auto"
+                    >
+                      <div class="slider_profile mb-5 position-relative">
+                        <img
+                          src="{% static '/images/author.webp' %}"
+                          class="img-fluid rounded"
+                          alt="Author"
+                        />
+                        <span
+                          class="slider_profile_icon position-absolute d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-quote-left"></i>
+                        </span>
+                      </div>
+                      <div class="slider_text w-50 m-auto text-center">
+                        <p class="text-muted">
+                          "Working in conjunction with humanitarian aid
+                          agencies, we have supported programmes to help
+                          alleviate human suffering.
+                        </p>
+                        <span class="text-muted">--Smith </span>
+                      </div>
+                    </div>
+                  </div>
+                  <!--slider part end-->
+                </div>
+                <a class="prev text-center" onclick="plusTestimonial(-1)"
+                  >&#10094;</a
+                >
+                <a class="next text-center" onclick="plusTestimonial(1)"
+                  >&#10095;</a
+                >
+                <div class="dots d-flex justify-content-center m-auto">
+                  <span class="dot" onclick="currentTestimonial(1)"></span>
+                  <span class="dot" onclick="currentTestimonial(2)"></span>
+                  <span class="dot" onclick="currentTestimonial(3)"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== End testmonial Section ========== -->
+
+      <!-- ========== Start Trips Section ========== -->
+      <section class="trips_section py-5 bg-light" id="trips">
+        <div class="container-fluid !direction !spacing">
+          <div
+            class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}"
+          >
+            <div class="col-lg-12">
+              <div class="trips_title py-5">
+                <h1 class="text-center text-capitalize text-primary">
+                  Recently Trips
+                </h1>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="trips_items" >
+                <div class="trips_inner_item">
+                  <div class="card border-0 shadow-sm">
+                    <img
+                      src="{% static '/images/recently-trips/1.webp' %}"
+                      class="card-img-top"
+                      alt="Trips-1"
+                    />
+                    <div class="card-body">
+                      <p class="card-text font-italic">05 Nov 2024</p>
+                      <a class="card-title" href="{% url "trips_details" %}">
+                        Some quick example text to build on the card title
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="trips_items">
+                <div class="trips_inner_item">
+                  <div class="card border-0 shadow-sm">
+                    <img
+                      src="{% static '/images/recently-trips/2.webp' %}"
+                      class="card-img-top"
+                      alt="Trips-2"
+                    />
+                    <div class="card-body">
+                      <p class="card-text font-italic">25 July 2024</p>
+                      <h5 class="card-title">
+                        Some quick example text to build on the card title
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="trips_items">
+                <div class="trips_inner_item">
+                  <div class="card border-0 shadow-sm">
+                    <img
+                      src="{% static '/images/recently-trips/3.webp' %}"
+                      class="card-img-top"
+                      alt="Trips-3"
+                    />
+                    <div class="card-body">
+                      <p class="card-text font-italic">04 Aug 2024</p>
+                      <h5 class="card-title">
+                        Some quick example text to build on the card title
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== End Trips Section ========== -->
+
+      <!-- ========== Start contact Section ========== -->
+      <section class="Contact_section py-5" id="contact">
+        <div class="container-fluid !direction !spacing">
+          <div
+            class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}"
+          >
+            <div class="col-lg-6 col-md-6">
+              <div class="contact_info position-relative" style="width: 560px">
+                <img
+                  src="{% static '/images/bg-01.jpg' %}"
+                  class="img-fluid rounded-top"
+                  alt="bg-01"
+                />
+                <div class="info_items position-absolute">
+                  <div class="C_address d-flex mb-5 text-white">
+                    <span class="address_icon">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </span>
+                    <div class="address_icon_text">
+                      <h5 class="address_title">Address</h5>
+                      <p class="address_text">
+                        123 Main St, Anytown, USA 12345
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="C_address d-flex mb-5 text-white">
+                    <span class="address_icon">
+                      <i class="fa-solid fa-phone-volume"></i>
+                    </span>
+                    <div class="address_icon_text">
+                      <h5 class="address_title text-capitalize">let's Talk</h5>
+                      <a
+                        class="nav-link"
+                        aria-disabled="false"
+                        href="tel:+8801866751015"
+                        >+88 01866-******</a
+                      >
+                    </div>
+                  </div>
+
+                  <div class="C_address d-flex mb-5 text-white">
+                    <span class="address_icon">
+                      <i class="fa-solid fa-square-envelope"></i>
+                    </span>
+                    <div class="address_icon_text">
+                      <h5 class="address_title text-capitalize">E-mail</h5>
+                      <a
+                        class="nav-link"
+                        aria-disabled="false"
+                        href="mailto:example@gmail.com"
+                        >example@gmail.com</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 pt-4">
+              <div class="contact_form">
+                <div class="header d-flex justify-content-center mb-5">
+                  <h2 class="text-center">Send Us A Message</h2>
+                </div>
+                <form class="row g-3 needs-validation mt-5" novalidate>
+                  <div class="col-md-12 mb-3">
+                    <label for="validationCustom01" class="form-label"
+                      >First name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="validationCustom01"
+                      value="Mark"
+                      required
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+                  <div class="col-md-12 mb-3">
+                    <label for="validationCustom02" class="form-label"
+                      >Last name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="validationCustom02"
+                      value="Otto"
+                      required
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+                  <div class="col-md-12 mb-3">
+                    <label for="validationCustom04" class="form-label"
+                      >Choose Country</label
+                    >
+                    <select
+                      class="form-select"
+                      id="validationCustom04"
+                      required
+                    >
+                      <option selected disabled value="">Choose...</option>
+                      <option>Fiji</option>
+                      <option>Kuwait</option>
+                      <option>Oman</option>
+                      <option>Saudi Arabia</option>
+                      <option>Qatar</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid state.
+                    </div>
+                  </div>
+                  <div class="col-md-12 mb-3">
+                    <label for="" class="form-label">Message</label>
+                    <textarea
+                      class="form-control"
+                      name=""
+                      id=""
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <div class="col-12 mb-3">
+                    <button class="btn btn-primary btn-sm w-100" type="submit">
+                      Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== End contact Section ========== -->
+ 
+    {% endblock content %}

@@ -1,0 +1,12 @@
+<!--authentication all messagese-->
+{% if messages %}
+    {% for message in messages %}
+    
+    <div class="random_messages alert alert-{{message.tags}} d-flex justify-content-between">
+        <span>{{ message }}</span> 
+        <button type="button" class="btn-close close px-4" aria-label="Close" data-dismiss="alert"><i class="fa-solid fa-x"></i></button>
+  
+    </div>
+
+{% endfor %}
+{% endif %}

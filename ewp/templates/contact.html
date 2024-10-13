@@ -1,0 +1,452 @@
+<!-- 
+    Document: Easy Way Process Webpage
+    Author: Abdur Rahman Roky
+    Description: A basic HTML webpage using Bootstrap and Google Fonts.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Way Process</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <!--external script and link-->
+    <link rel="icon" type="image/x-icon" href="travel.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ========== Start owl carousel ========== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <!-- ========== End owl carousel ========== -->
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap"
+      rel="stylesheet"
+    />
+    <!--customize css-->
+    <link rel="stylesheet" type="text/css" href="./statics/css/style.css" />
+  </head>
+  <body>
+    <!--preloader-->
+    <div class="preloader" id="preloader"></div>
+    <!--preloader-->
+
+    <!-- ========== Start header ========== -->
+    <header>
+      <nav
+        class="navbar navbar-expand-sm navbar-light shadow-sm bg-light"
+        id="navbar"
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand rounded-circle"
+            href="https://www.github.com/Startup-Git"
+          >
+            <img
+              src="travel.jpg"
+              alt="Logo"
+              class="rounded-circle shadow"
+              style="width: 50px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarID"
+            aria-controls="navbarID"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarID"
+          >
+            <div class="w-75">
+              <div class="navbar-nav justify-content-center text-capitalize">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+                <a class="nav-link" aria-current="page" href="#aboutus"
+                  >About Us</a
+                >
+                <a class="nav-link" aria-current="page" href="#service"
+                  >Service</a
+                >
+                <a class="nav-link" aria-current="page" href="#blog">blog</a>
+                <a class="nav-link" aria-current="page" href="#contact"
+                  >Contact</a
+                >
+              </div>
+            </div>
+
+            <a
+              id="callme"
+              class="btn btn-primary"
+              href="tel:+8801866751015"
+              role="button"
+              >Call ME</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ========== End header ========== -->
+
+    <!-- ========== Start contact hero ========== -->
+    <section class="contact_hero_section">
+      <div class="trips_hero" id="post">
+        <div class="trips_contents h-25">
+          <div class="trips_contents_item">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7306.004505057429!2d90.43405114999999!3d23.711613600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9cc7d566d03%3A0x2472a49ac0504cd2!2z4Kav4Ka-4Kak4KeN4Kaw4Ka-4Kas4Ka-4Kec4Ka_LCDgpqLgpr7gppXgpr4!5e0!3m2!1sbn!2sbd!4v1726508099957!5m2!1sbn!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End contact hero ========== -->
+    <main>
+            <!-- ========== Start contact Section ========== -->
+            <section class="Contact_section py-5" id="contact">
+              <div class="container-fluid !direction !spacing">
+                <div
+                  class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}"
+                >
+                  <div class="col-lg-6 col-md-6">
+                    <div class="contact_info position-relative">
+                      <img
+                        src="./statics/images/bg-01.jpg"
+                        class="img-fluid rounded-top"
+                        alt="bg-01"
+                      />
+                      <div class="info_items position-absolute">
+                        <div class="C_address d-flex mb-5 text-white">
+                          <span class="address_icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                          </span>
+                          <div class="address_icon_text">
+                            <h5 class="address_title">Address</h5>
+                            <p class="address_text">
+                              123 Main St, Anytown, USA 12345
+                            </p>
+                          </div>
+                        </div>
+      
+                        <div class="C_address d-flex mb-5 text-white">
+                          <span class="address_icon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                          </span>
+                          <div class="address_icon_text">
+                            <h5 class="address_title text-capitalize">let's Talk</h5>
+                            <a
+                              class="nav-link"
+                              aria-disabled="false"
+                              href="tel:+8801866751015"
+                              >+88 01866-******</a
+                            >
+                          </div>
+                        </div>
+      
+                        <div class="C_address d-flex mb-5 text-white">
+                          <span class="address_icon">
+                            <i class="fa-solid fa-square-envelope"></i>
+                          </span>
+                          <div class="address_icon_text">
+                            <h5 class="address_title text-capitalize">E-mail</h5>
+                            <a
+                              class="nav-link"
+                              aria-disabled="false"
+                              href="mailto:example@gmail.com"
+                              >example@gmail.com</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 pt-4">
+                    <div class="contact_form">
+                      <div class="header d-flex justify-content-center mb-5">
+                        <h2 class="text-center">Send Us A Message</h2>
+                      </div>
+                      <form class="row g-3 needs-validation mt-5" novalidate>
+                        <div class="col-md-12 mb-3">
+                          <label for="validationCustom01" class="form-label"
+                            >First name</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="validationCustom01"
+                            value="Mark"
+                            required
+                          />
+                          <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <label for="validationCustom02" class="form-label"
+                            >Last name</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="validationCustom02"
+                            value="Otto"
+                            required
+                          />
+                          <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <label for="validationCustom04" class="form-label"
+                            >Choose Country</label
+                          >
+                          <select
+                            class="form-select"
+                            id="validationCustom04"
+                            required
+                          >
+                            <option selected disabled value="">Choose...</option>
+                            <option>Fiji</option>
+                            <option>Kuwait</option>
+                            <option>Oman</option>
+                            <option>Saudi Arabia</option>
+                            <option>Qatar</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid state.
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <label for="" class="form-label">Message</label>
+                          <textarea
+                            class="form-control"
+                            name=""
+                            id=""
+                            rows="3"
+                          ></textarea>
+                        </div>
+                        <div class="col-12 mb-3">
+                          <button class="btn btn-primary btn-sm w-100" type="submit">
+                            Message
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- ========== End contact Section ========== -->
+    </main>
+
+    <!-- ========== Start Footer Section ========== -->
+    <footer
+      class="footer_section text-center text-lg-start text-white pt-5"
+      style="background-color: #45526e"
+    >
+      <section class="footer_content p-4 pb-0">
+        <div class="container-fluid">
+          <!--Grid row-->
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Easy Way Process
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+              <p>
+                <a class="text-white" href="#">visa consultency</a>
+              </p>
+              <p>
+                <a class="text-white" href="#">work permit</a>
+              </p>
+              <p>
+                <a class="text-white" href="#">manpower</a>
+              </p>
+              <p>
+                <a class="text-white" href="#">Flight Booking</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+              <p>
+                <a class="text-white" href="#">Your Account</a>
+              </p>
+              <p>
+                <a class="text-white" href="#">Our Blog</a>
+              </p>
+              <p>
+                <a class="text-white" href="#">Policy</a>
+              </p>
+              <p>
+                <a class="text-white" href="#">Help</a>
+              </p>
+            </div>
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="contact col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!--Grid row-->
+        </div>
+      </section>
+      <hr class="mb-4" />
+
+      <section class="sign_up">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3 mx-sm-3">Register for free</span>
+          <button
+            type="button"
+            class="btn btn-outline-light btn-rounded btn-sm"
+          >
+            Sign up!
+          </button>
+        </p>
+      </section>
+      <hr class="mb-4" />
+
+      <section class="mb-4 text-center">
+        <!-- Facebook -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+
+        <!-- Twitter -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+
+        <!-- Google -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="#!"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+
+        <!-- Github -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="#!"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright:
+        <a
+          class="text-white nav-link d-inline-block"
+          target="_blank"
+          href="https://github.com/startup-git"
+          >Startup-Git</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- ========== End Footer Section ========== -->
+
+    <!-- ========== Start All Scripts ========== -->
+    <script src="./statics/js/preloader.js"></script>
+    <script src="./statics/js/main.js"></script>
+    <script src="jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./statics/js/owl-carousel.js"></script>
+    <!-- ========== End All Scripts ========== -->
+  </body>
+</html>
