@@ -62,6 +62,9 @@ To get started with the EWP Travel Agency project, follow these steps:
    <!-- super user -->
    name: admin
    password: admin
+   <!-- users -->
+   name: johnsmith
+   password: 123456789
 
 5. **Run the development server:**
    ```bash

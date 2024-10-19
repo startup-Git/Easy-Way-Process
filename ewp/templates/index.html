@@ -823,9 +823,11 @@
                     />
                     <div class="card-body">
                       <p class="card-text font-italic">05 Nov 2024</p>
-                      <a class="card-title" href="{% url "trips_details" %}">
-                        Some quick example text to build on the card title
-                      </a>
+                      <a href="{% url 'trips_details' %}" class="card-title text-decoration-none">
+                        <h5>
+                            Some quick example text to build on the card title
+                        </h5>
+                    </a>
                     </div>
                   </div>
                 </div>
@@ -843,9 +845,11 @@
                     />
                     <div class="card-body">
                       <p class="card-text font-italic">25 July 2024</p>
-                      <h5 class="card-title">
-                        Some quick example text to build on the card title
-                      </h5>
+                      <a href="{% url 'trips_details' %}" class="card-title text-decoration-none">
+                        <h5>
+                            Some quick example text to build on the card title
+                        </h5>
+                    </a>
                     </div>
                   </div>
                 </div>
@@ -863,9 +867,11 @@
                     />
                     <div class="card-body">
                       <p class="card-text font-italic">04 Aug 2024</p>
-                      <h5 class="card-title">
-                        Some quick example text to build on the card title
-                      </h5>
+                      <a href="{% url 'trips_details' %}" class="card-title text-decoration-none">
+                        <h5>
+                            Some quick example text to build on the card title
+                        </h5>
+                    </a>
                     </div>
                   </div>
                 </div>
@@ -883,7 +889,7 @@
             class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}"
           >
             <div class="col-lg-6 col-md-6">
-              <div class="contact_info position-relative" style="width: 560px">
+              <div class="contact_info position-relative">
                 <img
                   src="{% static '/images/bg-01.jpg' %}"
                   class="img-fluid rounded-top"
